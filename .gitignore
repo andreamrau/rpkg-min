@@ -3,6 +3,8 @@
 # R ignore files
 # https://github.com/github/gitignore/blob/master/R.gitignore
 ########################################
+.DS_Store
+
 # History files
 .Rhistory
 .Rapp.history
