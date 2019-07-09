@@ -4,3 +4,15 @@ r:
   - oldrel
   - release
   - devel
+notifications:
+  email:
+    recepients:
+     - andrea.rau@inra.fr
+    on_success: change
+    on_failure: change
+git:
+  depth: false
+branches:
+  only:
+  - master
+  - stable
